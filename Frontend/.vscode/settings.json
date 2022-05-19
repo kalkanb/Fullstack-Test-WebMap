@@ -3,5 +3,7 @@
     "typescript.format.enable": false,
     "javascript.format.enable": false,
     "editor.formatOnPaste": true,
-    "search.useIgnoreFiles": true
+    "search.useIgnoreFiles": true,
+    "search.useParentIgnoreFiles": true,
+    "search.useGlobalIgnoreFiles": true
 }
