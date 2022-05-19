@@ -1,0 +1,206 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.exception-body {
+    background-color: #f7f7f7;
+    height: auto;
+}
+
+.exception-body .exception-type {
+    width: 100%;
+    height: 50%;
+    padding: 100px 100px 0 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.exception-body .exception-panel {
+    text-align: center;
+    width: 350px;
+    padding: 35px;
+    margin: -10% auto 0 auto;
+    z-index: 100;
+}
+
+.exception-body.error-page .exception-panel {
+    width: 50%;
+}
+
+.exception-body .exception-panel i {
+    font-size: 72px;
+}
+
+.exception-body .exception-panel h1 {
+    font-size: 36px;
+    line-height: 36px;
+    color: #757575;
+}
+
+.exception-body .exception-panel .exception-detail {
+    margin: 20px 0 100px 0;
+    color: #757575;
+}
+
+.exception-body.error-page .exception-panel .exception-detail {
+    margin: 0;
+    text-align: left;
+}
+
+.exception-body.error-page .exception-panel .p-button {
+    margin-top: 20px;
+}
+
+.exception-body.error-page .exception-panel .exception-detail h3 {
+    font-weight: bold;
+}
+
+.exception-body.error-page .exception-type {
+    background-color: #e62a10;
+}
+
+.exception-body.error-page .exception-type img {
+    width: 100%;
+}
+
+.exception-body.error-page .exception-panel i {
+    color: #f79a84;
+}
+
+.exception-body.notfound-page .exception-type {
+    background-color: #3f51b5;
+}
+
+.exception-body.notfound-page .exception-type img {
+    width: 54%;
+}
+
+.exception-body.notfound-page .exception-panel i {
+    color: #9fa8da;
+}
+
+.exception-body.accessdenied-page .exception-type {
+    background-color: #e91e63;
+}
+
+.exception-body.accessdenied-page .exception-type img {
+    width: 50%;
+}
+
+.exception-body.accessdenied-page .exception-panel i {
+    color: #f48fb1;
+}
+
+@media (max-width: 1024px) {
+    .exception-body .exception-panel {
+        margin-top: -50px;
+    }
+    .exception-body.error-page .exception-panel {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .exception-body .exception-panel {
+        width: 250px;
+        margin-top: -15px;
+    }
+    .exception-body.error-page .exception-panel {
+        width: 100%;
+    }
+}
+
+.modal {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease-in-out;
+}
+
+.modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal__content {
+    width: 500px;
+    margin: 15% auto;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    transition: inherit;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-100px);
+}
+
+.modal.active .modal__content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.modal__header,
+.modal__body,
+.modal__footer {
+    padding: 16px 20px;
+}
+
+.modal__close {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #7f7f7f;
+}
+
+.modal__close:hover {
+    color: #000;
+}
+
+.big-bold {
+    font-weight: bold;
+}
