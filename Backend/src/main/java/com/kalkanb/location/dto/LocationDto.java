@@ -18,11 +18,11 @@ public class LocationDto {
     @NotBlank(message = "Name cannot be empty")
     private String name;
 
-    @Min(value = -90, message = "Latitude can only be int the interval of [-90, 90]")
-    @Max(value = 90, message = "Latitude can only be int the interval of [-90, 90]")
+    @Min(value = -90, message = "Latitude can only be in the interval of [-90, 90]")
+    @Max(value = 90, message = "Latitude can only be in the interval of [-90, 90]")
     private Double latitude;
 
-    @Min(value = -180, message = "Latitude can only be int the interval of [-180, 180]")
-    @Max(value = 180, message = "Latitude can only be int the interval of [-180, 180]")
+    @Min(value = -180, message = "Latitude can only be in the interval of [-180, 180]")
+    @Max(value = 180, message = "Latitude can only be in the interval of [-180, 180]")
     private Double longitude;
 }
