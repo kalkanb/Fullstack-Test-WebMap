@@ -1,0 +1,17 @@
+com\kalkanb\location\exception\LocationValidationException.class
+com\kalkanb\location\service\LocationServiceImpl.class
+com\kalkanb\location\SpringbootrestapiApplication.class
+com\kalkanb\location\exception\LocationGlobalExceptionHandler.class
+com\kalkanb\location\exception\LocationErrorResponse.class
+com\kalkanb\location\dto\LocationDto.class
+com\kalkanb\location\dto\UserDto.class
+com\kalkanb\location\mapper\LocationMapperImpl.class
+com\kalkanb\location\exception\LocationNotFoundException.class
+com\kalkanb\location\exception\LocationException.class
+com\kalkanb\location\mapper\LocationMapper.class
+com\kalkanb\location\repository\LocationRepository.class
+com\kalkanb\location\service\LocationService.class
+com\kalkanb\location\repository\UserRepository.class
+com\kalkanb\location\entity\UserEntity.class
+com\kalkanb\location\entity\LocationEntity.class
+com\kalkanb\location\controller\LocationController.class

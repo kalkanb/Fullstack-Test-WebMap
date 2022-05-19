@@ -1,0 +1,16 @@
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\dto\LocationDto.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\controller\LocationController.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\SpringbootrestapiApplication.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\exception\LocationErrorResponse.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\exception\LocationValidationException.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\mapper\LocationMapper.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\entity\UserEntity.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\repository\UserRepository.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\entity\LocationEntity.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\exception\LocationException.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\exception\LocationNotFoundException.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\exception\LocationGlobalExceptionHandler.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\dto\UserDto.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\repository\LocationRepository.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\service\LocationService.java
+C:\Users\ASUS\Desktop\Workspace\Projects\Backend\src\main\java\com\kalkanb\location\service\LocationServiceImpl.java
